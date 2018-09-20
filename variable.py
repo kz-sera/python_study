@@ -55,3 +55,6 @@ print(num_4)
 num_4 /= num_1
 print(num_4)
 
+
+
+#瀬良ちゃんよくできました
