@@ -10,27 +10,21 @@
 #1
 first_name = 'kazui'
 print(first_name)
-
 #2
 last_name = 'sera'
 print(last_name)
-
 #3
 age = 43
 print(age)
-
 #4
 over_4 = False
 print(over_4)
-
 #5
 money = 4300
 print('所持金：', money)
-
 #6
 bit = int(input('掛け金を入力してください'))
 print('掛け金:', bit)
-
 #7
 money -= bit
 print('所持金：', money)
