@@ -55,11 +55,20 @@ print(num_4)
 num_4 /= num_1
 print(num_4)
 
-
+print('#######################')
 
 #瀬良ちゃんよくできました
 
 #キーボード入力
 #キーボード入力は必ず変数に入ってないといけない
-keyboard = input('好きな食べ物を入力してください')
-print('好きな食べ物:', keyboard)
+# keyboard = input('好きな食べ物を入力してください')
+# print('好きな食べ物:', keyboard)
+
+print('#######################')
+
+money = 400
+print('所持金:', money)
+bit = int(input('掛け金を入力してください'))
+print('掛け金：', bit)
+money -= bit
+print('所持金:', money)
