@@ -62,4 +62,4 @@ print(num_4)
 #キーボード入力
 #キーボード入力は必ず変数に入ってないといけない
 keyboard = input('好きな食べ物を入力してください')
-print(keyboard)
+print('好きな食べ物:', keyboard)
