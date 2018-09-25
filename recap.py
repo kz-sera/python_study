@@ -75,8 +75,9 @@ print(fruits_list[4])
 print(games_list[6])
 
 #5
-anything = 'はるひろ', 'バナナ', '.hack//G.U.'
-anything_list.append(anything) #これだとタプルが入ってしまう。個別に入れるようにappend()してください -by.J
+anything_list.append('はるひろ')
+anything_list.append('バナナ')
+anything_list.append('.hack//G.U.') #これだとタプルが入ってしまう。個別に入れるようにappend()してください -by.J
 print(anything_list)
 
 #6
@@ -104,5 +105,5 @@ games_list.remove('大神')
 print(games_list)
 
 #12
-del friends_list[:], fruits_list[:], games_list[:]
-print(friends_list, fruits_list, games_list) #やり方は合ってますが削除が3つのみです。anything_listも削除してください -by.J
+del friends_list[:], fruits_list[:], games_list[:], anything_list[:]
+print(friends_list, fruits_list, games_list, anything_list) #やり方は合ってますが削除が3つのみです。anything_listも削除してください -by.J
