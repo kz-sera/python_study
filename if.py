@@ -34,28 +34,9 @@
 # elif 'o' not in name:
 #     print('oは含まれません')
 
-import random as rand
-money = 3000
-print('所持金', money)
 
-bit = int(input('掛け金を入力してください'))
-print('掛け金', bit)
 
-trump_card = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
-trump_rand =rand.randint(0, len(trump_card)-1)
-
-player_hand = []
-
-rand1 = rand.randint(0, len(trump_card)-1)
-rand2 = rand.randint(0, len(trump_card)-1)
-
-trump_1 = trump_card[rand1]
-trump_2 = trump_card[rand2]
-
-player_hand.append(trump_1)
-player_hand.append(trump_2)
-print(player_hand)
 
 
     
