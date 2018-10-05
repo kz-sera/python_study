@@ -182,3 +182,10 @@ def full_name(first_name, last_name):
     return full_name
 full_name = full_name(last_name = ' sera', first_name = 'kazui')
 print(full_name)
+
+
+
+
+#[2018/10/05] BMI計算
+#作ったBMIプログラムで、ユーザーのBMI値によって「痩せすぎ」「普通」「肥満」を判定するプログラムを追記せよ。
+#この時、追記はbody_calculate.pyに行え
